@@ -1,0 +1,38 @@
+{
+  "name": "mybook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+   "start": "nodemon lib/index.js --exec babel-node",
+   "build": "babel lib -d dist",
+   "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "bcrypt-nodejs": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-flash": "*",
+    "express-jwt": "*",
+    "express-session": "*",
+    "flash": "*",
+    "jsonwebtoken": "*",
+    "jwt-express": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "nodemailer": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "serve-favicon": "*",
+    "socket.io": "*"
+  },
+   "devDependencies": {
+    "babel-cli": "~6.10.1",
+    "babel-preset-stage-2": "~6.11.0",
+    "babel-preset-es2015": "~6.9.0",
+    "nodemon":"*"
+  }
+}
